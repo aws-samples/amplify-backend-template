@@ -1,10 +1,18 @@
-## AWS Amplify Backend-Only App Template
+## AWS Amplify Backend-Only Starter Template
 
-Welcome to the Amplify Backend-Only App Template repository! This repository provides a streamlined process for building backend-only applications using AWS Amplify. Whether you're new to Amplify or a seasoned developer, this repository aims to simplify the setup and deployment of your backend infrastructure.
+This repository provides a streamlined process for building backend-only applications using AWS Amplify. Whether you're new to Amplify or a seasoned developer, this repository aims to simplify the setup and deployment of your backend infrastructure with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
 
-Learn more: https://docs.amplify.aws/gen2/start/quickstart/ 
+## Features
 
-### Getting Started
+- **Authentication**: Setup with Amazon Cognito for secure user authentication.
+- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
+- **Database**: Real-time database powered by Amazon DynamoDB.
+
+## Deploying to AWS
+
+For detailed instructions on deploying your application, refer to the [deployment section](vue/deploy-and-host/fullstack-branching/mono-and-multi-repos/#deploy-the-backend-app) of our documentation.
+
+## Getting Started
 
 1. Clone this repository to your local machine:
 
@@ -31,3 +39,11 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the app in action.
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
